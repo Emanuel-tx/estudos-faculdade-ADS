@@ -1,0 +1,18 @@
+body{
+    color: aqua;
+    background-color: rgb(30, 80, 82);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+hr{
+    color: rgb(0, 255, 255);
+}
+#info{
+    background-color: rgb(70, 160, 167);
+}
+.borda{
+    border: 3px dotted aqua;
+}
+    /* tres valroes para a borda: grossura, estilo e cor
+}
+/* '.' é usado para IDs e '#' são para classes

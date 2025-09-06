@@ -1,0 +1,113 @@
+/*seletor universal, 
+usado para resetar a pagina*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    border: 2px solid rgb(0, 0, 0);
+    height: 1000px;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+}
+/* primeiro valor margins em cima e em baixo,
+segundo valor direita e esquerda
+margin: 0 auto para centralizar um elemento*/
+.left{
+    height: 100%;
+    width: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(24, 42, 44);
+    color: white
+}
+.right{
+    height: 100%;
+    width: 50%;
+}
+.left img{
+    height: 270px;
+    width: 270px;
+    border: 5px solid rgb(255, 240, 29);
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: block;
+    
+
+}
+.left h1{
+    font-size: 40px;
+}
+.left h2{
+    margin: 10px 0 0 0;
+}
+.left h3{
+    margin: 10px 0 ;
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(255, 240, 29);
+}
+.edu h4{
+    font-style: italic;
+    font-weight: 400;
+}
+.left p{
+    font-size: 13px;
+}
+.barra{
+    
+    height: 20px;
+    border: 2px solid;
+    width: 100px;
+    border-radius: 20px;
+    display:inline-block;
+}
+.progresso-50{
+    height: 99%;
+    width: 50%;
+    border-radius: 20px;
+    background-color: rrgb(255, 240, 29);
+}
+.progresso-75{
+    height: 18px;
+    width: 75%;
+    border-radius: 20px;
+    background-color: rgb(255, 240, 29);
+}
+
+.progresso-85{
+    height: 99%;
+    width: 85%;
+    border-radius: 20px;
+    background-color: rgb(255, 240, 29);
+}
+.progresso-100{
+    height: 99%;
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgb(255, 240, 29);
+}
+.edu h4{
+    margin-top: 5px;
+}
+.idioma{
+    margin-top: 20px;
+}
+.idioma h2{
+    margin-bottom: 8px
+}
+.iditem{
+    display:inline-block;
+}
+.contatos{
+    margin-top: 25px
+}
+.contatos p{
+    display:inline-block;
+}

@@ -1,0 +1,43 @@
+
+   1. Criação de Variáveis: Crie uma variável nome para armazenar seu nome e outra idade para armazenar sua idade. Imprima os valores.
+---
+nome:str = "Emanuel"
+idade:int = 18
+print("Olá, me chamo",nome ,"e tenho" ,idade ,"anos")
+---
+   2. Identificação de Tipos: Crie variáveis de tipos diferentes (int, float, str, bool) e use type() para identificar cada uma delas.
+---
+numeroDeBagresNoRio:int = 7
+profundidadeDoRio:float = 10.1
+corDosBagres:str = "cinza"
+isAguaFria:bool = True
+print(type(numeroDeBagresNoRio))
+print(type(profundidadeDoRio))
+print(type(corDosBagres))
+print(type(isAguaFria))
+---
+   3. Conversão de Tipos: Peça ao usuário para inserir um número (input()). Converta-o para int e float, imprimindo os dois resultados.
+---
+numeroDigitado = input("digite um numero: ")
+print("Você digitou o numero", numeroDigitado,"...")
+print("que fica assim convertido pra real:", float(numeroDigitado),"...")
+print("E assim convertido pra inteiro:", int(numeroDigitado),". Oia que bunito") 
+---
+   4. Manipulação de Strings: Peça ao usuário seu nome e idade. Em seguida, exiba uma mensagem como "Seu nome é Ana e você tem 25 anos.".
+---
+nome:str = input("Digite seu nome: ")
+idade:int = input ("Digite sua idade: ")
+print("Você se chama",nome,"e tem",idade,"anos")
+---
+   5. Cálculo de Média: Peça ao usuário duas notas e calcule a média. Exiba a média formatada em um número inteiro.
+    Utilize os operadores:
+    Soma: +
+    Divisão: /
+ ---
+numero1 = input("digite uma nota: ")
+numero2 = input("digite outra nota: ")
+numerosomado = (int(numero1))+(int(numero2))
+numerodividido = (float(numerosomado))/2
+print("A média dessas notas é" ,(int(numerodividido)))
+---
+
