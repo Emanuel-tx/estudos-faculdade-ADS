@@ -8,6 +8,13 @@ usado para resetar a pagina*/
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+a{
+    color: white;
+    font-size: 15px;
+}
+a.hover{
+    color: white;
+}
 .container{
     border: 2px solid rgb(0, 0, 0);
     height: 1000px;
@@ -24,19 +31,39 @@ margin: 0 auto para centralizar um elemento*/
     padding-left: 20px;
     padding-right: 20px;
     background-color: rgb(24, 42, 44);
-    color: white
+    background-image: url(bgleft.png) ;
+    color: white;
 }
 .right{
+
     height: 100%;
     width: 50%;
+    padding: 40px 20px;
+    color: rgb(24, 42, 44);
+    background-color: rgb(255, 255, 255);
+}
+.right h2{
+    margin-bottom: 10px;
+}
+.habtexto{
+    width: 48%;
+    display:inline-block;
+}
+.habicones{
+    width: 48%;
+    display:inline-block;
+}
+.experiencia{
+    margin-bottom: 140px;
 }
 .left img{
     height: 270px;
     width: 270px;
-    border: 5px solid rgb(255, 240, 29);
+    border: 5px solid rgb(92, 255, 174);
     border-radius: 50%;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
     display: block;
     
 
@@ -48,50 +75,82 @@ margin: 0 auto para centralizar um elemento*/
     margin: 10px 0 0 0;
 }
 .left h3{
-    margin: 10px 0 ;
+    margin: 10px 0 26px 0;
     font-style: italic;
     font-size: 20px;
-    color: rgb(255, 240, 29);
+    color: rgb(92, 255, 174);
 }
+.edu{
+    margin-bottom: 30px;
+    margin-top: 30px
+}
+
 .edu h4{
     font-style: italic;
     font-weight: 400;
 }
 .left p{
-    font-size: 13px;
+    font-size: 15px;
 }
-.barra{
+.barra1{
     
-    height: 20px;
+    height: 16px;
     border: 2px solid;
     width: 100px;
     border-radius: 20px;
     display:inline-block;
+    margin-bottom: 0px;
+}
+.barra2{
+    
+    height: 16px;
+    border: 2px solid;
+    width: 100px;
+    border-radius: 20px;
+    display:inline-block;
+    
+
+}
+.idibarras{
+    width: 48%;
+    height: 30px;
+
+    display:inline-block;
+}
+.iditexto{
+    
+    width: 40%;
+    display:inline-block;
+    height: 30px;
+    font-size: 20px;
+.iditem{
+    margin-bottom: 0px;
+}
 }
 .progresso-50{
     height: 99%;
     width: 50%;
     border-radius: 20px;
-    background-color: rrgb(255, 240, 29);
+    background-color: rgb(92, 255, 174);
 }
 .progresso-75{
     height: 18px;
     width: 75%;
     border-radius: 20px;
-    background-color: rgb(255, 240, 29);
+    background-color: rgb(92, 255, 174);
 }
 
 .progresso-85{
     height: 99%;
     width: 85%;
     border-radius: 20px;
-    background-color: rgb(255, 240, 29);
+    background-color: rgb(92, 255, 174);
 }
 .progresso-100{
     height: 99%;
     width: 100%;
     border-radius: 20px;
-    background-color: rgb(255, 240, 29);
+    background-color: rgb(92, 255, 174);
 }
 .edu h4{
     margin-top: 5px;
@@ -106,7 +165,7 @@ margin: 0 auto para centralizar um elemento*/
     display:inline-block;
 }
 .contatos{
-    margin-top: 25px
+    margin-top: 87px
 }
 .contatos p{
     display:inline-block;
