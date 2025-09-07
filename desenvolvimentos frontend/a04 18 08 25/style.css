@@ -112,14 +112,14 @@ margin: 0 auto para centralizar um elemento*/
 
 }
 .idibarras{
-    width: 48%;
+    width: 30%;
     height: 30px;
 
     display:inline-block;
 }
 .iditexto{
     
-    width: 40%;
+    width: 37%;
     display:inline-block;
     height: 30px;
     font-size: 20px;
