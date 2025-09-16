@@ -13,15 +13,20 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 40px;
+    font-size: 90px;
 
 }
 header{
-    background-color: red;
+    background-color: rgb(165, 16, 16);
     color: white;
-    height: 25vh;
+    height: 250px;
     display: flexbox;
     padding: 0 0 15px 0
+
+}
+footer{
+        background-color: rgb(165, 16, 16);
+        color: white;
 
 }
 nav{
@@ -31,7 +36,14 @@ nav{
     align-items: center;
     justify-content: center;
 }
-.button{
+.buttonlist{
+    list-style: none;
+    padding-top: 20px;
+}
+.buttonlistitem{
+    margin-bottom: 20px;
+}
+.button, .buttonb1, .buttonb2, .buttonb3, .buttonb4, .buttonb5, .buttonb6{
     margin: 0px 10px 0px;
     color: white;
     text-decoration: none;
@@ -39,12 +51,63 @@ nav{
 
 }
 .button:hover {
-
+border-bottom: 3px solid white;
 }
 article{
 padding: 50px;
+width: 85%;
+}
+.author-article{
+    margin-bottom: 20px;
 }
 main{
     display: flex;
-    height: 75vh;
+
+}
+h2{
+    font-size: 40px;
+}
+.img-article{
+    height: 400px;
+    filter: grayscale();
+    margin: 20px 50px 3px;
+}
+.subtitle{
+    color: rgb(63, 63, 63);
+    padding-bottom: 30px;
+    text-indent: 50px;
+}
+.p-article{
+    font-size: 20px;
+    text-indent: 50px;
+    margin-bottom: 10px;
+}
+a{
+    color: rgb(150, 14, 14);
+    font-weight: bolder;
+}
+aside{
+    background-color: rgb(126, 14, 14);
+    width: 15%;
+    display: flex;
+}
+
+.buttonb1:hover{
+    border-bottom: 3px solid rgb(255, 255, 255);
+
+}
+.buttonb2:hover{
+    border-bottom: 3px solid rgb(255, 151, 54);
+}
+.buttonb3:hover{
+    border-bottom: 3px solid rgb(70, 196, 255);
+}
+.buttonb4:hover{
+    border-bottom: 3px solid rgb(129, 255, 70);
+}
+.buttonb5:hover{
+    border-bottom: 3px solid rgb(230, 230, 230);
+}
+.buttonb6:hover{
+    border-bottom: 3px solid rgb(249, 70, 255);
 }
