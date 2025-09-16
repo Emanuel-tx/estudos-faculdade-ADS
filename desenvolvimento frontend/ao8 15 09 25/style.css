@@ -1,0 +1,48 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(30, 122, 92);
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+main{
+    height: 60vh;
+    display: flex;
+}
+footer{
+    height: 15vh;
+    background-color: rgb(30, 122, 92);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    background-color: rgb(19, 75, 56);
+    width: 25%;
+    color: white;
+    padding: 20px;
+}
+section{
+    background-color: rgb(255, 255, 255);
+    width: 75%;
+    padding: 15px;
+}
+a{
+    color: white;
+}
+p{
+    padding: 10px;
+}
+ul{
+    list-style: none;
+}
+/* justify content e align items == centralizam itens em um display flex. justify é no eixo principal e align no transversal */
