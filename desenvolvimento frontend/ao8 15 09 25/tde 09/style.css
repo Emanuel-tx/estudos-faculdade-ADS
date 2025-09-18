@@ -91,7 +91,9 @@ aside{
     width: 15%;
     display: flex;
 }
-
+linkfooter{
+    
+}
 .buttonb1:hover{
     border-bottom: 3px solid rgb(255, 255, 255);
 
