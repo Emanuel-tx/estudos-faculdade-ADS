@@ -16,6 +16,9 @@ h1{
     font-size: 90px;
 
 }
+ul{
+    list-style: none;
+}
 header{
     background-color: rgb(165, 16, 16);
     color: white;
