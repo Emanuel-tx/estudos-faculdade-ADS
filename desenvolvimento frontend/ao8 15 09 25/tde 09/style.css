@@ -16,6 +16,9 @@ h1{
     font-size: 90px;
 
 }
+ul{
+    list-style: none;
+}
 header{
     background-color: rgb(165, 16, 16);
     color: white;
@@ -27,7 +30,15 @@ header{
 footer{
         background-color: rgb(165, 16, 16);
         color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0 10px 0
 
+}
+.footer2{
+    width: 15%;
+    margin: 0 40px 0 40px;
 }
 nav{
     width: 100%;
@@ -60,6 +71,9 @@ width: 85%;
 .author-article{
     margin-bottom: 20px;
 }
+.sec-articles{
+    width: 80%;
+}
 main{
     display: flex;
 
@@ -67,11 +81,30 @@ main{
 h2{
     font-size: 40px;
 }
-.img-article{
+.title{
+    font-size: 30px;
+    padding: 0 0 30px 0;
+}
+.celeb{
+    color: rgb(48, 149, 196);
+}
+.sport{
+    color: rgb(216, 124, 38);
+}
+.tech{
+    color: rgb(80, 158, 43);
+}
+.img-article-bluezao{
     height: 400px;
     filter: grayscale();
     margin: 20px 50px 3px;
+    
 }
+.img-article{
+    height: 400px;
+    margin: 20px 50px 3px;
+}
+
 .subtitle{
     color: rgb(63, 63, 63);
     padding-bottom: 30px;
@@ -88,11 +121,12 @@ a{
 }
 aside{
     background-color: rgb(126, 14, 14);
-    width: 15%;
+    width: 20%;
     display: flex;
 }
-linkfooter{
-    
+.linkfooter{
+    color: white;
+    font-weight: 400;
 }
 .buttonb1:hover{
     border-bottom: 3px solid rgb(255, 255, 255);
