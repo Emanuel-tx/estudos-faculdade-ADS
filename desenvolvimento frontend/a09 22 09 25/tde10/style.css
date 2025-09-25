@@ -1,3 +1,16 @@
+@media(max-width: 548px){
+    .about{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -11,13 +24,14 @@ header{
     align-items: center;
     height: 15vh;
     padding: 0 20px 0 20px;
+    margin: 0 0 30px 0;
 
 }
 .about{
     display:flex;
     align-items: center;
     justify-content: center;
-    padding: 0 50px;
+    padding: 0 120px 0px 120px;
 }
 nav ul {
     display: flex;
@@ -43,11 +57,17 @@ margin-right: 10px
 .card {
     width: 280px;
     height: 320px;
+    background-color: rgb(216, 216, 216);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
 }
 
 .card img {
     height: 70%;
     width: 100%;
+    border-radius: 10px;
+    
 }
 
 #projects{
@@ -57,22 +77,25 @@ margin-right: 10px
 }
 #projects h2{
     margin: 0 auto;
+    margin-bottom: 20px;
 }
 .projects{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: blueviolet;
-    width: 70%;
+    width: 60vh;
     margin: 0 auto;
 }
+
 #techs{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 20px
 }
 #techs h2{
-    margin: 0 auto
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 .techs{
     width: 60%;
