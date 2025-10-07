@@ -51,13 +51,16 @@ body{
     padding: 5px;
     text-decoration: none;
     color: black;
-    border: 1.9px solid transparent;
+    border: 1.9px solid rgba(0, 128, 0, 0);
     border-radius: 14px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.281);
+
 }
 .button_section a:hover{
     background-color: transparent;
     border: 1.9px solid white;
     color: white;
     box-shadow: none;
+    transition: background-color 1s, color 1s, border-color 1s;
+    transition-timing-function: ease-in;
 }
