@@ -1,16 +1,3 @@
-@media(max-width: 548px){
-    .about{
-        flex-direction: column;
-    }
-}
-
-
-
-
-
-
-
-
 *{
     margin: 0;
     padding: 0;
@@ -19,23 +6,35 @@
 }
 header{
     display: flex;
-    background-color: gray;
     justify-content: space-between;
-    align-items: center;
-    height: 15vh;
-    padding: 0 20px 0 20px;
-    margin: 0 0 30px 0;
-
+    padding: 0 50px;
+    height: 80px;
+    background-color: gray;
+    align-items: center     ;
 }
 .about{
-    display:flex;
+    display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 0 120px 0px 120px;
+    justify-content: space-evenly;
+    margin: 20px 0 0 0
+
+}
+.about .text{
+    width: 80%;
+}
+.projects{
+    display:flex;
+    flex-wrap:wrap;
+    width: 900px;
+    margin: 0 auto
+}
+nav{
+    display: flex;
 }
 nav ul {
-    display: flex;
     list-style: none;
+    display: flex;
+    align-items: center;
 }
 nav li {
     margin: 0 10px;
@@ -51,62 +50,24 @@ nav a {
     border-radius: 10px;
     border: 1px solid;
 }
-.foto{
-margin-right: 10px
-}
 .card {
     width: 280px;
-    height: 320px;
-    background-color: rgb(216, 216, 216);
+    height: 370px;
+    background-color: rgb(214, 214, 214);
     margin: 10px;
-    padding: 5px;
     border-radius: 10px;
 }
-
+.card h3, p{
+    margin: 0 10px 10px 10px;
+}
 .card img {
     height: 70%;
     width: 100%;
-    border-radius: 10px;
-    
+    border-radius: 10px 10px 0 0;
 }
-
 #projects{
-    display:flex;
-    flex-direction: column;
-
-}
-#projects h2{
-    margin: 0 auto;
-    margin-bottom: 20px;
-}
-.projects{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 60vh;
-    margin: 0 auto;
-}
-
-#techs{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin-bottom: 20px
-}
-#techs h2{
-    margin: 0 auto;
-    margin-bottom: 20px;
-}
-.techs{
-    width: 60%;
-    display: flex;
-    justify-content: space-around;
-    margin: 0 auto;
-}
-footer{
-    background-color: gray;
-    display: flex;
-    justify-content: center;
     align-items: center;
-    height: 10vh;
+    gap: 10px;
 }
